@@ -1,0 +1,103 @@
+body {
+    height: 100vh;
+    margin: 0;
+    margin-top: 5%;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.app-container {
+    width: 600px;
+    height: fit-content;
+    background-color: rgba(255, 243, 227, 0.8);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.list-container {
+    width: 100%;
+}
+
+#list-body {
+    padding: 0;
+    margin-top: 40px;
+}
+
+.list-item {
+    list-style: none;
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 2.4em;
+    width: 100%;
+}
+
+.input-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5em 1em;
+}
+
+.task-content {
+    width: 90%;
+    padding: 0 1em;
+}
+
+.check-btn,
+.delete-btn {
+    height: 100%;
+    width: 1.7em;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+}
+
+.check-btn {
+    background-color: rgb(152, 173, 194);
+}
+
+.delete-btn {
+    background-color: rgb(174, 193, 212);
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+
+}
+
+
+.large-btn {
+    font-size: 1.1rem;
+    padding: 0.4em 0.8em;
+    border: none;
+    background-color: rgb(154, 180, 206);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+#clear-all-btn {
+    margin-left: auto;
+    font-size: 1rem;
+}
